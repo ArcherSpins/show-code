@@ -125,7 +125,7 @@ class App extends React.PureComponent<AppProps, AppState> {
         localStorage.setItem('language', language);
       });
     }
-  }
+  };
 
   render() {
     const { hasError, language } = this.state;
